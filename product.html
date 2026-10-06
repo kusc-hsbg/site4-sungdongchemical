@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=10.0, user-scalable=yes">
+  <title>제품소개 - 성동산업</title>
+  <meta name="theme-color" content="#0026b1">
+  <link rel="icon" type="image/png" href="assets/images/09c9b0592e227.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .section-coating { background: #000; padding: 80px 0; }
+    .section-coating .inside h2 { font-size: 48px; font-weight: 700; color: #fff; margin-bottom: 15px; }
+    .section-coating .inside p.desc { font-size: 16px; color: #aaa; line-height: 1.8; }
+
+    .section-coating-features { background: #000; padding: 40px 0 80px; }
+    .coating-features-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      max-width: 1280px; margin: 0 auto;
+    }
+    .coating-feature {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      aspect-ratio: 1;
+    }
+    .coating-feature img {
+      width: 100%; height: 100%; object-fit: cover;
+    }
+    .coating-feature .feature-label {
+      position: absolute;
+      bottom: 20px; left: 20px;
+      font-size: 18px; color: #fff; font-weight: 700;
+    }
+
+    .section-adhesive { background: #000; padding: 80px 0; position: relative; }
+    .adhesive-grid {
+      display: flex; align-items: center;
+      max-width: 1280px; margin: 0 auto;
+    }
+    .adhesive-left { flex: 0 0 50%; padding-right: 40px; }
+    .adhesive-left h2 { font-size: 48px; font-weight: 700; color: #fff; margin-bottom: 15px; }
+    .adhesive-left p { font-size: 16px; color: #aaa; line-height: 1.8; margin-bottom: 30px; }
+    .adhesive-tags { display: flex; flex-wrap: wrap; gap: 15px; }
+    .adhesive-tag { font-size: 36px; font-weight: 700; color: #fff; }
+    .adhesive-right { flex: 0 0 50%; }
+    .adhesive-right img { width: 100%; border-radius: 12px; }
+
+    .section-product-list { background: #000; padding: 80px 0; }
+    .product-list-inner { max-width: 1280px; margin: 0 auto; }
+    .product-category { margin-bottom: 60px; }
+    .product-category h3 { font-size: 24px; color: #fff; font-weight: 700; margin-bottom: 20px; }
+    .product-table { width: 100%; border-collapse: collapse; }
+    .product-table th, .product-table td {
+      padding: 12px 15px; text-align: left; font-size: 14px; border-bottom: 1px solid #333;
+    }
+    .product-table th { color: #aaa; font-weight: 600; background: #111; }
+    .product-table td { color: #ccc; }
+
+    @media (max-width: 991px) {
+      .coating-features-grid { grid-template-columns: repeat(2, 1fr); padding: 0 17px; }
+      .adhesive-grid { flex-direction: column; padding: 0 17px; }
+      .adhesive-left { flex: none; padding: 0; margin-bottom: 30px; }
+      .adhesive-right { flex: none; }
+      .product-list-inner { padding: 0 17px; }
+    }
+    @media (max-width: 767px) {
+      .coating-features-grid { grid-template-columns: 1fr; }
+      .adhesive-tag { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="logo"><a href="index.html"><img src="assets/images/00229eda2d1a8.png" alt="성동산업"></a></div>
+    <div class="header-right">
+      <ul class="nav-menu">
+        <li><a href="about.html">회사소개</a></li>
+        <li><a href="product.html" class="active">제품소개</a></li>
+        <li><a href="support.html">고객지원</a></li>
+      </ul>
+      <div class="mobile-menu-btn"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav-overlay"></div>
+<nav class="mobile-nav">
+  <button class="mobile-nav-close">&times;</button>
+  <ul>
+    <li><a href="about.html">회사소개</a></li>
+    <li><a href="product.html" class="active">제품소개</a></li>
+    <li><a href="support.html">고객지원</a></li>
+  </ul>
+</nav>
+
+<!-- COATING SECTION -->
+<section class="section-coating" style="padding-top:calc(var(--header-height) + 80px);">
+  <div class="inside">
+    <h2>수성 코팅제</h2>
+    <p class="desc">수성 코팅제의 특징은 환경문제에 대응한 친환경 제품이며,<br>종이 롤러 코팅에 적합한 고품질 광택을 제공합니다.</p>
+  </div>
+</section>
+
+<!-- COATING FEATURES -->
+<section class="section-coating-features">
+  <div class="coating-features-grid">
+    <div class="coating-feature">
+      <img src="assets/images/fd2e5780d4090.jpg" alt="코팅">
+      <div class="feature-label">고광택 코팅</div>
+    </div>
+    <div class="coating-feature">
+      <img src="assets/images/0d62206e2866d.jpg" alt="코팅">
+      <div class="feature-label">내구성 강화 코팅</div>
+    </div>
+    <div class="coating-feature">
+      <img src="assets/images/dc455f2ea5096.jpg" alt="코팅">
+      <div class="feature-label">균일한 코팅 효과</div>
+    </div>
+    <div class="coating-feature">
+      <img src="assets/images/cd9827495c794.jpg" alt="코팅">
+      <div class="feature-label">자연스러운 무광 처리</div>
+    </div>
+  </div>
+</section>
+
+<!-- ADHESIVE SECTION -->
+<section class="section-adhesive">
+  <div class="adhesive-grid">
+    <div class="adhesive-left">
+      <h2>수성 에멀젼 접착제</h2>
+      <p>수성 에멀젼 접착제의 특징은 다양한 소재에 강력한 접착 효과가 있습니다.</p>
+      <div class="adhesive-tags">
+        <span class="adhesive-tag">일반</span>
+        <span class="adhesive-tag">합지용</span>
+        <span class="adhesive-tag">고강도</span>
+        <span class="adhesive-tag">접착</span>
+        <span class="adhesive-tag">아크릴</span>
+        <span class="adhesive-tag">라미네이팅</span>
+        <span class="adhesive-tag">필름 접착</span>
+        <span class="adhesive-tag">최적화</span>
+      </div>
+    </div>
+    <div class="adhesive-right">
+      <img src="assets/images/659f49bacecbe.png" alt="접착제">
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT LIST -->
+<section class="section-product-list">
+  <div class="product-list-inner">
+    <div class="product-category">
+      <h3>1. 코팅제 (Water-based Coating for paper calendaring or Water-based Coating Solution)</h3>
+      <table class="product-table">
+        <thead><tr><th>제품명</th><th>용도</th></tr></thead>
+        <tbody>
+          <tr><td>CR 코팅</td><td>종이 롤러 코팅용 고광택 제품</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="product-category">
+      <h3>2. 수성 보호용 점착제</h3>
+    </div>
+    <div class="product-category">
+      <h3>3. PET용 접착제 (BLISTER)</h3>
+    </div>
+    <div class="product-category">
+      <h3>4. 접착제</h3>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section-contact">
+  <div class="contact-inner">
+    <h2>고객 문의</h2>
+    <p class="contact-desc">성동산업은 고객 문의에 늘 최선을 다하며 힘쓰고 있습니다.<br>전화, 이메일을 통해 문의해 주세요.</p>
+    <div class="contact-grid">
+      <div class="contact-box">
+        <p class="contact-label">전화 문의</p>
+        <p class="contact-value">055-329-4114</p>
+      </div>
+      <div class="contact-box">
+        <p class="contact-label">이메일 문의</p>
+        <p class="contact-value">sdc251984@naver.com</p>
+      </div>
+    </div>
+    <a href="tel:055-329-4114" class="btn-call">전화 문의하기</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-logo">
+      <img src="assets/images/1dae6332f5d25.png" alt="성동산업">
+    </div>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>제품 보기</h4>
+        <ul>
+          <li><a href="product.html">코팅제</a></li>
+          <li><a href="product.html">접착제</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>고객지원</h4>
+        <ul>
+          <li><a href="support.html">문의하기</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>소셜</h4>
+        <ul>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>문의 안내</h4>
+        <p>운영 시간&emsp;AM 9:00 - PM 5:00</p>
+        <p>전화 문의&emsp;055-329-4114</p>
+        <p>이메일 문의&ensp;sdc251984@naver.com</p>
+        <p>주소&emsp;&emsp;&emsp;&ensp;경남 김해시 금관대로804번길 104(명법동)</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Copyright &copy; SUNG DONG CHEMICAL CO. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
