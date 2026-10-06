@@ -324,14 +324,14 @@ img { max-width: 100%; height: auto; display: block; }
 .btn-inquiry {
   display: inline-block;
   padding: 16px 26px;
-  background: transparent;
-  border: 1px solid rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.1);
+  border: none;
   color: #fff;
   font-size: 15px;
   border-radius: 9999px;
   transition: background 0.3s;
 }
-.btn-inquiry:hover { background: rgba(255,255,255,0.1); }
+.btn-inquiry:hover { background: rgba(255,255,255,0.2); }
 
 /* ===================== CONTACT SECTION ===================== */
 .section-contact {
