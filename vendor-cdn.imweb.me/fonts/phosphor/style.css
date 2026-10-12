@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'psi';
-  src:  url('fonts/psi.eot?kdxvq7');
-  src:  url('fonts/psi.eot?kdxvq7#iefix') format('embedded-opentype'),
-    url('fonts/psi.ttf?kdxvq7') format('truetype'),
-    url('fonts/psi.woff?kdxvq7') format('woff'),
-    url('fonts/psi.svg?kdxvq7#psi') format('svg');
+  src:  url('./fonts/psi.eot?kdxvq7');
+  src:  url('./fonts/psi.eot?kdxvq7') format('embedded-opentype'),
+    url('./fonts/psi.ttf?kdxvq7') format('truetype'),
+    url('./fonts/psi.woff?kdxvq7') format('woff'),
+    url('./fonts/psi.svg?kdxvq7') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

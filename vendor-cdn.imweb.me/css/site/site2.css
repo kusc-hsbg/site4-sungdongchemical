@@ -12231,7 +12231,7 @@ a[data-toggle="popover"]:focus {
 	}
 	.social-pay #checkoutContainer.__checkout_buy_container .__checkout_img_buy{
 		width: 100%;
-		background-image: url("https://vendor-cdn.imweb.me/images/kakao_payment_logo.svg") !important;
+		background-image: url("../../images/kakao_payment_logo.svg") !important;
 		background-repeat: no-repeat;
 		background-size: auto 18px !important;
         height: 19px;
